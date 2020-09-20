@@ -56,7 +56,7 @@ class Gif():
         self.cell_width = 20
         self.cell_height = 20
         self.speed = 180  # ms
-        self.loop = 1
+        self.loop = 0
 
     def add_image(self, scene):
         width = len(scene[0]) * self.cell_width
